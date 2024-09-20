@@ -49,29 +49,29 @@
       }
     }
 
-    /* Hover effect for projects */
+   
     .hover-zoom:hover {
       transform: scale(1.05);
       transition: transform 0.3s ease-in-out;
     }
 
-    /* Hover effect for buttons */
+   
     .hover-button {
       transition: background-color 0.3s, transform 0.3s;
     }
 
     .hover-button:hover {
-      background-color: #1d4ed8; /* Darker blue */
+      background-color: #1d4ed8; 
       transform: translateY(-3px);
     }
 
-    /* Custom styles for the navigation bar */
+
     .navbar {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 1rem 2rem;
-      background-color: #333; /* Dark grey background */
+      background-color: #333; 
       color: white;
       position: fixed;
       width: 100%;
@@ -88,15 +88,15 @@
       transition: color 0.3s;
     }
 
-    /* Navigation links hover effect */
+   
     .navbar a:hover {
-      color: #979da3; /* Tailwind Blue-400 */
+      color: #979da3; 
     }
 
-    /* Projects Card */
+    
     .project-card {
       transition: transform 0.3s, box-shadow 0.3s;
-      cursor: pointer; /* Add cursor pointer to indicate clickability */
+      cursor: pointer; 
     }
 
     .project-card:hover {
@@ -107,7 +107,7 @@
 </head>
 <body class="bg-gray-100 font-sans">
 
-  <!-- Navigation Bar -->
+ 
   <nav class="navbar fade-in">
     <h2 class="text-2xl font-bold">Portfolio</h2>
     <div>
@@ -117,7 +117,7 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
+  
   <header class="bg-hero flex items-center justify-center flex-col text-center">
     <div class="p-8 bg-gray-900 bg-opacity-70 rounded-lg">
       <h1 class="text-6xl font-bold mb-4 fade-in">Hi, I'm Rajasree Chowdhury</h1>
@@ -128,11 +128,11 @@
     </div>
   </header>
 
-  <!-- Projects Section -->
+ 
   <section id="projects" class="py-16 bg-gray-200">
     <h2 class="text-4xl font-bold text-center mb-10 text-gray-800">Projects</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
-      <!-- Project Item 1 -->
+  
       <div class="bg-white rounded-lg overflow-hidden shadow-lg project-card hover-zoom" onclick="window.open('https://todo-list-tan-two.vercel.app/', '_blank')">
         <img src="/todo.png" alt="Todo List" class="w-full">
         <div class="p-4">
@@ -140,7 +140,7 @@
           <p class="text-gray-600">A simple task management application built with React and Tailwind CSS.</p>
         </div>
       </div>
-      <!-- Project Item 2 -->
+      
       <div class="bg-white rounded-lg overflow-hidden shadow-lg project-card hover-zoom" onclick="window.open('https://coinflip-chi-cyan.vercel.app/', '_blank')">
         <img src="/coinflip.png" alt="Ethereum CoinFLip" class="w-full">
         <div class="p-4">
@@ -148,7 +148,7 @@
           <p class="text-gray-600">A coin flip game integrated with Ethereum smart contracts.</p>
         </div>
       </div>
-      <!-- Project Item 3 -->
+   
       <div class="bg-white rounded-lg overflow-hidden shadow-lg project-card hover-zoom" onclick="window.open('https://react-calculator-six-liard.vercel.app/', '_blank')">
         <img src="/calculator.png" alt="Calculator" class="w-full">
         <div class="p-4">
@@ -156,7 +156,7 @@
           <p class="text-gray-600">A simple and functional calculator built with React.</p>
         </div>
       </div>
-      <!-- Project Item 4 -->
+     
       <div class="bg-white rounded-lg overflow-hidden shadow-lg project-card hover-zoom" onclick="window.open('https://2048-game-sage-eight.vercel.app/', '_blank')">
         <img src="/game.png" alt="2048 Game" class="w-full">
         <div class="p-4">
@@ -167,7 +167,7 @@
     </div>
   </section>
 
-  <!-- About Section -->
+
   <section id="about" class="py-16">
     <div class="max-w-4xl mx-auto text-center px-4">
       <h2 class="text-4xl font-bold text-gray-800 mb-6">About Me</h2>
@@ -175,7 +175,7 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
+ 
   <section id="contact" class="py-16 bg-gray-200">
     <div class="max-w-4xl mx-auto text-center px-4">
       <h2 class="text-4xl font-bold text-gray-800 mb-6">Contact Me</h2>
@@ -188,7 +188,7 @@
     </div>
   </section>
 
-  <!-- Footer -->
+ 
   <footer class="bg-gray-900 text-white py-6 text-center">
     <p>&copy; 2024 My Portfolio. All rights reserved.</p>
   </footer>
